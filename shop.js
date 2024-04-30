@@ -18,7 +18,7 @@ btn1.onclick = () => {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.sexText('Вы выбрали торт!');
+        tg.MainButton.setText('Вы выбрали торт!');
         item = 'торт';
         tg.MainButton.show();
     }
@@ -29,7 +29,7 @@ btn2.onclick = () => {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.sexText('Вы выбрали круассан!');
+        tg.MainButton.setText('Вы выбрали круассан!');
         item = 'круассан';
         tg.MainButton.show();
     }
@@ -40,7 +40,7 @@ btn3.onclick = () => {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.sexText('Вы выбрали плюшку с творогом!');
+        tg.MainButton.setText('Вы выбрали плюшку с творогом!');
         item = 'плюшка';
         tg.MainButton.show();
     }
@@ -51,7 +51,7 @@ btn4.onclick = () => {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.sexText('Вы выбрали муравейник!');
+        tg.MainButton.setText('Вы выбрали муравейник!');
         item = 'муравейник';
         tg.MainButton.show();
     }
@@ -62,7 +62,7 @@ btn5.onclick = () => {
         tg.MainButton.hide();
     }
     else {
-        tg.MainButton.sexText('Вы выбрали слойку с вишней!');
+        tg.MainButton.setText('Вы выбрали слойку с вишней!');
         item = 'слойка';
         tg.MainButton.show();
     }
